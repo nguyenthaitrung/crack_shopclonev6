@@ -9,7 +9,7 @@ $CMSNT = new DB();
 
 function CMSNT_check_license($licensekey, $localkey='') {
     global $config;
-    $whmcsurl = 'https://whmcs.NguyenThaiTrung.live/';
+    $whmcsurl = 'https://whmcs.nguyenthaitrung.com/';
     $licensing_secret_key = $config['project'];
     $localkeydays = 0;
     $allowcheckfaildays = 0;
