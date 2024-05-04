@@ -1,8 +1,8 @@
 <?php 
 
-// if (!defined('IN_SITE')) {
-//     die('The Request Not Found');
-// }
+if (!defined('IN_SITE')) {
+    die('The Request Not Found');
+}
 
 $CMSNT = new DB();
 
