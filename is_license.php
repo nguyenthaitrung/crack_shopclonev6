@@ -1,15 +1,15 @@
 <?php 
 
-if (!defined('IN_SITE')) {
-    die('The Request Not Found');
-}
+// if (!defined('IN_SITE')) {
+//     die('The Request Not Found');
+// }
 
 $CMSNT = new DB();
 
 
 function CMSNT_check_license($licensekey, $localkey='') {
     global $config;
-    $whmcsurl = 'https://whmcs.maihuybao.live/';
+    $whmcsurl = 'https://whmcs.NguyenThaiTrung.live/';
     $licensing_secret_key = $config['project'];
     $localkeydays = 0;
     $allowcheckfaildays = 0;
@@ -245,7 +245,7 @@ if($CMSNT->site('license_key') == '' || checkLicenseKey($CMSNT->site('license_ke
                     </div>
                     <div class="card-body">
                         <p>License Key đã được tạo sẵn, quý khách chỉ cần ấn lưu để kích hoạt bản quyền </p>
-                        <p>Quý khách có thể yêu cầu hõ trợ tại Telegram:  <a target="_blank" href="https://t.me/MaiHuyBao">@MaiHuyBao</a></p>
+                        <p>Quý khách có thể yêu cầu hõ trợ tại Telegram:  <a target="_blank" href="https://t.me/NguyenThaiTrung">@NguyenThaiTrung</a></p>
                     </div>
                 </div>
             </div>
